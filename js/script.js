@@ -76,46 +76,10 @@ for(let i = 0; i < infoArrayTeam.length; i++) {
     </div>
     
     `
-    // Concateno le card a TeamContainer
-    teamContainer.innerHTML += cardToPush;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // <div class="team-card">
+    //--------------------------
+    // Esempio del template
+    //----------------------------------
+     // <div class="team-card">
             
         //     <div class="card-image">
         //         <img
@@ -125,8 +89,15 @@ for(let i = 0; i < infoArrayTeam.length; i++) {
         //     </div>
 
         //     <div class="card-text">
-        //         <h3></h3>
-        //         <p></p>
+        //         <h3>Wayne Barnett</h3>
+        //         <p>Founder & CEO</p>
         //     </div>
 
-        // </div>
+     // </div>
+
+
+
+    // Concateno le card a TeamContainer
+    teamContainer.innerHTML += cardToPush;
+
+}
